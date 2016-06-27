@@ -1,4 +1,4 @@
-Malifaux
+Malifaux 2e
 ========
 
 ####Contents####
@@ -27,9 +27,18 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 * [BattleScribe homepage][]
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
+* [Wyrd Games Home page][]
+* [Malifaux 2e Rules (free download)][]
 
 
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/bsdata/wiki/Home#getting-started
+[Wyrd Games Home page]: http://www.wyrd-games.net/
+[Malifaux 2e Rules (free download)]: http://www.drivethrurpg.com/product/133323/Malifaux--RULES-ONLY-Handbook--2E?cPath=23027_23028
+
+##Disclaimer##
+Portions of the materials used are copyrighted works of Wyrd Miniatures, LLC, in the United States of
+America and elsewhere. All rights reserved, Wyrd Miniatures, LLC. This material is not official and is not
+endorsed by Wyrd Miniatures, LLC.
 
