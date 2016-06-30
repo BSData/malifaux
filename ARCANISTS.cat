@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b63a-0141-3400-ede1" revision="2" gameSystemId="5ff82c92-8faf-fee2-9d9e-531d4753b8c8" gameSystemRevision="2" battleScribeVersion="1.15" name="ARCANISTS" authorName="muteking" authorContact="reyzambo2@hotmail.com" authorUrl="http://www.wyrd-games.net/malifaux-arcanists" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="27b7-bab0-af29-eeb5" name="Datsue Ba" points="8.0" categoryId="182a-ad17-37af-3c64" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="8.0" repeat="true" numRepeats="1" incrementParentId="direct parent" incrementChildId="1c71-66ae-2b00-2e62" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="176c-4ba8-f83e-c6a4" profileTypeId="ab420767-7194-97a3-f166-94bcd61e693f" name="Datsue Ba" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b" name="Defence(Df)" value="6"/>
+            <characteristic characteristicId="042b243e-da89-38ba-3156-6ee8abd789f2" name="Willpower(Wp)" value="5"/>
+            <characteristic characteristicId="0da21da5-7afc-7fb3-32d4-db748988afff" name="Wounds(Wd)" value="6"/>
+            <characteristic characteristicId="2689979e-7c9d-9f15-24da-dc21e28f626d" name="Walk(Wk)" value="5"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d989" name="Charge(Cg)" value="8"/>
+            <characteristic characteristicId="0c900bbf-edac-b0f5-bf66-05c598c437c8" name="Height(Ht)" value="2"/>
+            <characteristic characteristicId="9a4b750d-3b4a-4968-70a4-8b43eb5324c3" name="Cache" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1c71-66ae-2b00-2e62" targetId="3f2c-5da1-b053-0618" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4695-ab96-fb05-5515" targetId="b183-4bc0-9bb7-4aaf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c5d-8820-9bd1-90de" targetId="5a5a-58dc-7a89-a8de" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="7250-aaa0-73be-8885" targetId="269e-d99d-9c71-0506" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3733-8686-e35d-8db6" name="Ice Golem" points="10.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="153">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="08df-5d8b-0076-aafe" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Ice Golem" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="2"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="5"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="10"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="4"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="483b-9397-2077-8f83" targetId="2e63-e102-b988-4314" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c652-7c1b-c53f-1cec" name="December Acolyte" points="7.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="156">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="17b6-550e-6010-79ed" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="December Acolyte" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="5"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="6"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="8"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="4"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3c46-42ab-fe94-eaf2" targetId="da08-3a51-d6ef-143f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="37b6-0996-ab17-1510" name="Rasputina" points="0.0" categoryId="37cd-b6a7-0f72-3954" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="149">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6dc6-364c-4a95-d8ea" profileTypeId="ab420767-7194-97a3-f166-94bcd61e693f" name="Rasputina" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b" name="Defence(Df)" value="4"/>
+            <characteristic characteristicId="042b243e-da89-38ba-3156-6ee8abd789f2" name="Willpower(Wp)" value="6"/>
+            <characteristic characteristicId="0da21da5-7afc-7fb3-32d4-db748988afff" name="Wounds(Wd)" value="12"/>
+            <characteristic characteristicId="2689979e-7c9d-9f15-24da-dc21e28f626d" name="Walk(Wk)" value="3"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d989" name="Charge(Cg)" value="-"/>
+            <characteristic characteristicId="0c900bbf-edac-b0f5-bf66-05c598c437c8" name="Height(Ht)" value="2"/>
+            <characteristic characteristicId="9a4b750d-3b4a-4968-70a4-8b43eb5324c3" name="Cache" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="da6f-6b0d-47cc-2f5c" targetId="da08-3a51-d6ef-143f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7ab2-2ac3-a439-a6ed" targetId="f17d-ebcf-1b44-d537" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="0bb2-7107-e83e-1abb" targetId="3f2c-5da1-b053-0618" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6ff6-cc83-941d-3bd1" targetId="5a5a-58dc-7a89-a8de" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0520-33be-e584-8b5c" name="Wendigo" points="3.0" categoryId="6e935fb1-41bb-1bd8-f970-f56ecec63ccf" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="155">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="37b6-0996-ab17-1510" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="37b6-0996-ab17-1510" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="f5f6-e36e-8828-2e63" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Wendigo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="4(book)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="4"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="6"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="6"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2508-2a07-fa5e-cd70" targetId="da08-3a51-d6ef-143f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7d71-c99a-d1e8-9fdc" name="Ice Gamin" points="4.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="158">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="386e-eff9-31c3-9d3d" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Ice Gamin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="4(book)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="4"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="5"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="4"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="5"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e43d-3a89-f127-f8a4" targetId="2e63-e102-b988-4314" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="3f2c-5da1-b053-0618" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="1" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="c914-509a-dcfb-cd16" name="Upgrade\Imbued Protection" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="162">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4dd9-ac88-7181-bac4" name="Upgrade\Imbued Energies" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="162">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e33a-5e2c-8c70-b9f1" name="Upgrade\The Philosopher&apos;s Stone" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="162">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="7afd-b4fe-f2ef-5021" name="Upgrade\Arcane Reservoir" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="162">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6d98-6ace-43a3-f7c2" name="Upgrade\Recharge Soulstone" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="163">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="041e-eebb-15ac-039c" name="Upgrade\December&apos;s Pawn" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="164">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="37b6-0996-ab17-1510" field="selections" type="not equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="87b6-50d0-ade3-53a7" name="Upgrade\Cold Nights" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="164">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="37b6-0996-ab17-1510" field="selections" type="not equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d143-d08d-1807-a7b0" name="Upgrade\Shattered Heart" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="164">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="37b6-0996-ab17-1510" field="selections" type="not equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="24fe-4add-82ca-37a8" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="4dc1-9753-d6cd-eaae" targetId="c914-509a-dcfb-cd16" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6548-8f29-30a3-95ce" targetId="4dd9-ac88-7181-bac4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="68ca-7f7e-e8f4-a433" targetId="041e-eebb-15ac-039c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8bd9-e853-69de-aee5" targetId="87b6-50d0-ade3-53a7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="44d1-51fb-d728-64bd" targetId="d143-d08d-1807-a7b0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="ef19-a0ec-0306-9dc6" name="Upgrades (Enforcer)" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="aba6-6e5d-43f3-1d4e" targetId="24fe-4add-82ca-37a8" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="269e-d99d-9c71-0506" name="Upgrades (Henchman)" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="3493-c75c-2a2d-b01c" targetId="24fe-4add-82ca-37a8" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="5d4b-2c19-0a13-c2cf" targetId="6d98-6ace-43a3-f7c2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="5a5a-58dc-7a89-a8de" name="Upgrades (Leader)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="3f2c-5da1-b053-0618" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <links>
+        <link id="d72c-f5e0-c7c3-1538" targetId="e33a-5e2c-8c70-b9f1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4c5e-eb6b-ccd9-2971" targetId="7afd-b4fe-f2ef-5021" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="f17d-ebcf-1b44-d537" name="Upgrades (Master)" minSelections="0" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="fce3-5149-b664-de0e" targetId="24fe-4add-82ca-37a8" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="94a8-3606-0af3-7264" targetId="6d98-6ace-43a3-f7c2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="e503-3296-4681-ac23" name="Academic" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="68c0-9c9e-22d7-20a4" name="Beast" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="2e63-e102-b988-4314" name="Construct" hidden="false" book="Core" page="49">
+      <description>models drop Scrap Markers when they are killed</description>
+      <modifiers/>
+    </rule>
+    <rule id="d71f-e859-f0f2-5a12" name="Effigy" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="cb3c-463b-1ddc-2717" name="Horror" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="70d2-b452-99e3-eb7a" name="Horseman" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="8ad2-43de-d80b-4c5e" name="Hound" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="da08-3a51-d6ef-143f" name="Living" hidden="false" book="Core" page="49">
+      <description>The model&apos;s controller places a Corpse Marker in base contact with the model before it is removed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="59ce-e6d0-8931-2c4d" name="Puppet" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="5357-a9a1-b387-6b96" name="Retainer" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="41a7-0137-8635-e0ee" name="Slow" hidden="false" book="Core" page="53">
+      <description>A model with the Slow Condition generates 1 less general AP when it Activates.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b183-4bc0-9bb7-4aaf" name="Spirit" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="686a-27f7-c895-2305" name="Tormented" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="3b29-1113-238f-16b7" name="Unhirable" hidden="false">
+      <description>This model may not be hired, it may only be summoned.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
