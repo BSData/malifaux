@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="b63a-0141-3400-ede1" revision="2" gameSystemId="5ff82c92-8faf-fee2-9d9e-531d4753b8c8" gameSystemRevision="2" battleScribeVersion="1.15" name="RESURRECTIONISTS" authorName="muteking" authorContact="reyzambo2@hotmail.com" authorUrl="http://www.wyrd-games.net/malifaux-resurrectionist" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="2212-e220-70e7-3a53" name="Ashigaru" points="5.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="70">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="5f15-0a3f-c0ae-6701" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Ashigaru" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="4"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="5"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="6"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="3"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7a1b-1108-9f85-c6d4" targetId="5357-a9a1-b387-6b96" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="269d-0886-194f-ce23" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8932-d687-e825-326f" name="Bete noire" points="8.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="130">
       <entries/>
       <entryGroups/>
@@ -55,6 +82,36 @@
         </link>
       </links>
     </entry>
+    <entry id="212c-4ed7-aecc-cd83" name="Carrion Effigy" points="4.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="69">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="efa4-8292-25d1-28f4" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Carrion Effigy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value=""/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d38d-eab6-549b-643f" targetId="d71f-e859-f0f2-5a12" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="26df-dc25-88c6-5994" targetId="59ce-e6d0-8931-2c4d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a738-c4b6-66f5-56d5" targetId="2e63-e102-b988-4314" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e93d-8cdd-b931-f1b8" name="Crooked Man" points="5.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Core" page="131">
       <entries/>
       <entryGroups/>
@@ -78,6 +135,36 @@
           <modifiers/>
         </link>
         <link id="0882-600a-895c-06ff" targetId="686a-27f7-c895-2305" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="726d-0519-0572-a85c" name="Crooligan" points="4.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="2fe7-27b5-0daf-d386" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Crooligan" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="6"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="5"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value=""/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2f6e-2293-da1e-016a" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cdb3-801e-82d0-299b" targetId="cb3c-463b-1ddc-2717" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="074c-5528-b8b3-ae6d" targetId="ac32-7975-acda-8a20" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -120,6 +207,33 @@
           <modifiers/>
         </link>
         <link id="7250-aaa0-73be-8885" targetId="269e-d99d-9c71-0506" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="14ac-afe2-d11f-4c99" name="Dead Doxy" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="061e-17f7-0dfb-676c" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Dead Doxy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a16d-57c8-59a3-53c3" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ebfa-9f62-8e3a-06d1" targetId="4810-b041-1f07-b76b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -225,6 +339,33 @@
           <modifiers/>
         </link>
         <link id="fa1f-1384-5067-6e34" targetId="cb3c-463b-1ddc-2717" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9bc0-2386-fe71-a9bf" name="Jaakuna Ubume" points="6.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8af0-e7e7-eff3-ae3f" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Jaakuna Ubume" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fccc-7aa8-1a3f-580f" targetId="b183-4bc0-9bb7-4aaf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7bd6-fa86-8a1b-f2dc" targetId="686a-27f7-c895-2305" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -375,6 +516,53 @@
         </link>
       </links>
     </entry>
+    <entry id="4dbc-3736-cac1-febf" name="Molly Squidpiddge" points="0.0" categoryId="37cd-b6a7-0f72-3954" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="58">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5369-25a0-f5e2-2b71" name="Summons (the Ones Left Behind)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="30af-e5b4-9f08-2935" profileTypeId="ab420767-7194-97a3-f166-94bcd61e693f" name="Molly Squidpiddge" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b" name="Defence(Df)" value="6(crow)"/>
+            <characteristic characteristicId="042b243e-da89-38ba-3156-6ee8abd789f2" name="Willpower(Wp)" value=""/>
+            <characteristic characteristicId="0da21da5-7afc-7fb3-32d4-db748988afff" name="Wounds(Wd)" value="10"/>
+            <characteristic characteristicId="2689979e-7c9d-9f15-24da-dc21e28f626d" name="Walk(Wk)" value=""/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d989" name="Charge(Cg)" value=""/>
+            <characteristic characteristicId="0c900bbf-edac-b0f5-bf66-05c598c437c8" name="Height(Ht)" value="2"/>
+            <characteristic characteristicId="9a4b750d-3b4a-4968-70a4-8b43eb5324c3" name="Cache" value="3"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c5ed-ce84-4f64-1cbc" targetId="3f2c-5da1-b053-0618" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2252-889c-1156-616e" targetId="5a5a-58dc-7a89-a8de" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3b23-9533-7db3-4a46" targetId="f17d-ebcf-1b44-d537" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="b8fd-3ecd-0cd5-6137" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fb91-b5f1-372a-93aa" targetId="4810-b041-1f07-b76b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8871-8a7a-3844-f8fb" targetId="cb3c-463b-1ddc-2717" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f9bb-f6b0-4a24-774c" name="Necropunk" points="5.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -480,6 +668,30 @@
         </link>
       </links>
     </entry>
+    <entry id="0910-acb5-2a30-b7cb" name="Rafkin" points="7.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="69">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="23cc-e53f-3c8a-d1f0" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Rafkin" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="10"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9a88-d66d-4115-60ae" targetId="da08-3a51-d6ef-143f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6f3e-3687-30dc-2029" name="Rogue Necromancy" points="10.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="63">
       <entries/>
       <entryGroups/>
@@ -548,183 +760,6 @@
       <profiles/>
       <links>
         <link id="a812-458d-f81c-2a04" targetId="d1e5-c804-0b86-3251" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="726d-0519-0572-a85c" name="Crooligan" points="4.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="2fe7-27b5-0daf-d386" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Crooligan" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="6"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="5"/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value=""/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2f6e-2293-da1e-016a" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cdb3-801e-82d0-299b" targetId="cb3c-463b-1ddc-2717" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="074c-5528-b8b3-ae6d" targetId="ac32-7975-acda-8a20" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="14ac-afe2-d11f-4c99" name="Dead Doxy" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="061e-17f7-0dfb-676c" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Dead Doxy" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a16d-57c8-59a3-53c3" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ebfa-9f62-8e3a-06d1" targetId="4810-b041-1f07-b76b" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="9bc0-2386-fe71-a9bf" name="Jaakuna Ubume" points="6.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="67">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="8af0-e7e7-eff3-ae3f" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Jaakuna Ubume" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)"/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)"/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)"/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)"/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="fccc-7aa8-1a3f-580f" targetId="b183-4bc0-9bb7-4aaf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7bd6-fa86-8a1b-f2dc" targetId="686a-27f7-c895-2305" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1d69-3216-6079-0aef" name="The Drowned" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="68">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="87f3-ff9c-cc88-9643" targetId="0123-8f94-c64f-08f7" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0910-acb5-2a30-b7cb" name="Rafkin" points="7.0" categoryId="afff2517-9118-65d0-6a05-69270c89c446" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="69">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="23cc-e53f-3c8a-d1f0" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Rafkin" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="10"/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="9a88-d66d-4115-60ae" targetId="da08-3a51-d6ef-143f" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="212c-4ed7-aecc-cd83" name="Carrion Effigy" points="4.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="69">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="efa4-8292-25d1-28f4" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Carrion Effigy" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value=""/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value=""/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value=""/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value=""/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d38d-eab6-549b-643f" targetId="d71f-e859-f0f2-5a12" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="26df-dc25-88c6-5994" targetId="59ce-e6d0-8931-2c4d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a738-c4b6-66f5-56d5" targetId="2e63-e102-b988-4314" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="2212-e220-70e7-3a53" name="Ashigaru" points="5.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="70">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="5f15-0a3f-c0ae-6701" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="Ashigaru" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="4"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="5"/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="6"/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="5"/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="3"/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="7a1b-1108-9f85-c6d4" targetId="5357-a9a1-b387-6b96" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="269d-0886-194f-ce23" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -828,54 +863,19 @@
         </link>
       </links>
     </entry>
-    <entry id="4dbc-3736-cac1-febf" name="Molly Squidpiddge" points="0.0" categoryId="37cd-b6a7-0f72-3954" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="58">
+    <entry id="1d69-3216-6079-0aef" name="The Drowned" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="68">
       <entries/>
-      <entryGroups>
-        <entryGroup id="5369-25a0-f5e2-2b71" name="Summons (the Ones Left Behind)" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
+      <entryGroups/>
       <modifiers/>
       <rules/>
-      <profiles>
-        <profile id="30af-e5b4-9f08-2935" profileTypeId="ab420767-7194-97a3-f166-94bcd61e693f" name="Molly Squidpiddge" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="9fa2ee67-d1d9-d093-0af3-0ba3a7d88c3b" name="Defence(Df)" value="6(crow)"/>
-            <characteristic characteristicId="042b243e-da89-38ba-3156-6ee8abd789f2" name="Willpower(Wp)" value=""/>
-            <characteristic characteristicId="0da21da5-7afc-7fb3-32d4-db748988afff" name="Wounds(Wd)" value="10"/>
-            <characteristic characteristicId="2689979e-7c9d-9f15-24da-dc21e28f626d" name="Walk(Wk)" value=""/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d989" name="Charge(Cg)" value=""/>
-            <characteristic characteristicId="0c900bbf-edac-b0f5-bf66-05c598c437c8" name="Height(Ht)" value="2"/>
-            <characteristic characteristicId="9a4b750d-3b4a-4968-70a4-8b43eb5324c3" name="Cache" value="3"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <profiles/>
       <links>
-        <link id="c5ed-ce84-4f64-1cbc" targetId="3f2c-5da1-b053-0618" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2252-889c-1156-616e" targetId="5a5a-58dc-7a89-a8de" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="3b23-9533-7db3-4a46" targetId="f17d-ebcf-1b44-d537" linkType="entry group">
-          <modifiers/>
-        </link>
-        <link id="b8fd-3ecd-0cd5-6137" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fb91-b5f1-372a-93aa" targetId="4810-b041-1f07-b76b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8871-8a7a-3844-f8fb" targetId="cb3c-463b-1ddc-2717" linkType="rule">
+        <link id="87f3-ff9c-cc88-9643" targetId="0123-8f94-c64f-08f7" linkType="entry">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="a931-3a68-e73b-46e5" name="The Hanged" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+    <entry id="a931-3a68-e73b-46e5" name="The Hanged" points="0.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -972,7 +972,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="0a50-5996-b687-3303" targetId="1aee-5e53-9343-fae6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c791-d620-f344-6e1d" name="Night Terror" points="3.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="4" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="65">
       <entries/>
@@ -1081,6 +1085,47 @@
           <modifiers/>
         </link>
         <link id="2ec1-1f09-44c8-dace" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1aee-5e53-9343-fae6" name="Soulstone Cache" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="7" minInRoster="0" maxInRoster="7" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="0123-8f94-c64f-08f7" name="The Drowned" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="68">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="aef5-686e-b32b-9691" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="The Drowned" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="6"/>
+            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="6"/>
+            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="6"/>
+            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="4"/>
+            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
+            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e824-5bed-3203-d3e9" targetId="b183-4bc0-9bb7-4aaf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="03ea-26c2-40fc-007c" targetId="686a-27f7-c895-2305" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7720-1cb5-d4d6-ed36" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ec7d-4dc6-1373-2b25" targetId="cb3c-463b-1ddc-2717" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1220,6 +1265,21 @@ Actions or Abilities.</description>
       <profiles/>
       <links/>
     </entry>
+    <entry id="1b34-21ee-7789-e251" name="Upgrade\Spirit Whisper" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="27b7-bab0-af29-eeb5" field="selections" type="not equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="2c20-28ae-a7a6-8252" name="Upgrade\Swirling Aether" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -1259,39 +1319,6 @@ Actions or Abilities.</description>
       <profiles/>
       <links/>
     </entry>
-    <entry id="0123-8f94-c64f-08f7" name="The Drowned" points="6.0" categoryId="f8d4707d-7814-cd0a-e388-72519a4e206f" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Crossroads" page="68">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="aef5-686e-b32b-9691" profileTypeId="f2c3cb08-04f9-637e-eddd-587ba69ec5a9" name="The Drowned" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="abc11e6e-747a-678b-2df3-4c12ba913ba1" name="Defence(Df)" value="6"/>
-            <characteristic characteristicId="1921db93-99dc-9bdb-d6ba-141f24afa2f2" name="Willpower(Wp)" value="6"/>
-            <characteristic characteristicId="fbb469e5-aea5-49d9-3a0f-a5aa244af286" name="Wounds(Wd)" value="6"/>
-            <characteristic characteristicId="89e316bf-d9ed-3689-45f8-538a0439652d" name="Walk(Wk)" value="4"/>
-            <characteristic characteristicId="4921463b-2034-7920-04f2-f90c6cb5d982" name="Charge(Cg)" value="6"/>
-            <characteristic characteristicId="8c419f50-f496-763f-8d50-6dbc17819715" name="Height(Ht)" value="2"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e824-5bed-3203-d3e9" targetId="b183-4bc0-9bb7-4aaf" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="03ea-26c2-40fc-007c" targetId="686a-27f7-c895-2305" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7720-1cb5-d4d6-ed36" targetId="d412-e0a9-73b0-5cf4" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ec7d-4dc6-1373-2b25" targetId="cb3c-463b-1ddc-2717" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups>
     <entryGroup id="24fe-4add-82ca-37a8" name="Upgrades" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1327,6 +1354,9 @@ Actions or Abilities.</description>
           <modifiers/>
         </link>
         <link id="95a8-7dfc-5666-63e8" targetId="e68d-3b70-821b-daba" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="59ec-c66b-3995-f77d" targetId="1b34-21ee-7789-e251" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1389,6 +1419,9 @@ Actions or Abilities.</description>
     </entryGroup>
   </sharedEntryGroups>
   <sharedRules>
+    <rule id="e503-3296-4681-ac23" name="Academic" hidden="false">
+      <modifiers/>
+    </rule>
     <rule id="68c0-9c9e-22d7-20a4" name="Beast" hidden="false">
       <modifiers/>
     </rule>
@@ -1397,6 +1430,9 @@ Actions or Abilities.</description>
     </rule>
     <rule id="2e63-e102-b988-4314" name="Construct" hidden="false" book="Core" page="49">
       <description>models drop Scrap Markers when they are killed</description>
+      <modifiers/>
+    </rule>
+    <rule id="d71f-e859-f0f2-5a12" name="Effigy" hidden="false">
       <modifiers/>
     </rule>
     <rule id="cb3c-463b-1ddc-2717" name="Horror" hidden="false">
@@ -1410,6 +1446,12 @@ Actions or Abilities.</description>
     </rule>
     <rule id="da08-3a51-d6ef-143f" name="Living" hidden="false" book="Core" page="49">
       <description>The model&apos;s controller places a Corpse Marker in base contact with the model before it is removed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ac32-7975-acda-8a20" name="Lost" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="59ce-e6d0-8931-2c4d" name="Puppet" hidden="false">
       <modifiers/>
     </rule>
     <rule id="5357-a9a1-b387-6b96" name="Retainer" hidden="false">
@@ -1431,18 +1473,6 @@ Actions or Abilities.</description>
     </rule>
     <rule id="3b29-1113-238f-16b7" name="Unhirable" hidden="false">
       <description>This model may not be hired, it may only be summoned.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ac32-7975-acda-8a20" name="Lost" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="59ce-e6d0-8931-2c4d" name="Puppet" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="d71f-e859-f0f2-5a12" name="Effigy" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="e503-3296-4681-ac23" name="Academic" hidden="false">
       <modifiers/>
     </rule>
   </sharedRules>
