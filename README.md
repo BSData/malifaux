@@ -1,3 +1,5 @@
+Archived by @Mad-Spy on 2020-05-21 due to lack of release
+
 Malifaux 2e
 ========
 
